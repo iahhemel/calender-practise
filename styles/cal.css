@@ -1,0 +1,31 @@
+.container{
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   gap: 10px;
+   
+   
+}
+.day{
+    background-color: lightblue;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-style: bold;
+}
+.day-name{
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    height: 40px;
+    width: auto;
+    /* width: 50px; */
+    border-radius: 5px;
+
+}
+    
